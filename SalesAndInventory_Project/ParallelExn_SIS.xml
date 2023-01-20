@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  <test  name="firefox-1">
+    <classes>
+      <class name="Product_Module.CreateProduct_POM_Test"/>
+      <class name="Accounts_Module.CreateUserAccount_POM_Test"/>
+      </classes>
+      </test>
+      <test name = "firefox-2">
+      <classes>
+      <class name="Customer_Module.CreateCustomer_POM_Test"/>
+      <class name="Employee_Module.CreateEmployee_POM_Test"/>
+    </classes>>
+  </test>> <!-- Test -->
+</suite> <!-- Suite -->

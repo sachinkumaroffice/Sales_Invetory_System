@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Customer_Module.CreateCustomer_POM_Test">
+        <methods>
+          <include name="configAS_SIS"/>
+          <include name="configAC_SIS"/>
+          <include name="configBS_SIS"/>
+          <include name="configAM_SIS"/>
+          <include name="configBM_SIS"/>
+          <include name="configBC_SIS"/>
+          <include name="addCustomer"/>
+        </methods>
+      </class> <!-- Customer_Module.CreateCustomer_POM_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
